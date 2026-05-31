@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #faf5f8;
+  margin: 16px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.con2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.con3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  box-shadow: 1px 1px 18px 6px rgba(0, 0, 0, 0.23);
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.img3 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.img4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.img5 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.img6 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+  color: gray;
+  span {
+    text-decoration: underline;
+  }
+}
+p {
+  font-size: 12px;
+  color: gray;
+  font-weight: normal;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 30px; /* Increased horizontal padding to make the button wider */
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px; /* Adds breathing room between the text paragraph and the button */
+  cursor: pointer;
+  border-radius: 20px; /* Pill-shaped rounding matching the design */
+}
