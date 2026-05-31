@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: sans-serif;
+}
+.john {
+  display: flex;
+  flex-flow: column;
+  background-color: honeydew;
+  box-shadow: 0px 8px 26px 3px rgba(0, 0, 0, 0.2);
+}
+
+.jane {
+  display: flex;
+  flex-flow: column;
+  background-color: honeydew;
+  box-shadow: 0px 8px 26px 3px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+  font-weight: 400;
+  margin: inherit;
+}
+img {
+  border-radius: 7px 7px 1px 1px;
+}
+
+h2 {
+  margin: inherit;
+}

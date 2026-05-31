@@ -1,0 +1,52 @@
+div {
+  
+  margin: auto;
+  width: 50%;
+}
+.red {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  
+  margin: 0px 0px 15px 0px;
+}
+.red4 {
+  background-color: rgb(67, 55, 243);
+  width: 62%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.red1 {
+  background-color: red;
+  width: 100%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.red2 {
+  background-color: rgb(60, 236, 54);
+  width: 26%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.red3 {
+  background-color: rgb(51, 228, 235);
+  width: 26%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.org {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  
+  margin: 0px 0px 15px 0px;
+}
+.yel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  margin: 0px 0px 15px 0px;
+}
+
+

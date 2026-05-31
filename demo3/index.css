@@ -1,0 +1,53 @@
+div {
+  border: 10px solid rgb(255, 255, 255);
+  margin: auto;
+  width: 50%;
+}
+.red {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  border: 1px solid black;
+  margin: 0px 0px 15px 0px;
+}
+.red1 {
+  background-color: red;
+  width: 25%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.red2 {
+  background-color: orange;
+  width: 25%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.red3 {
+  background-color: yellow;
+  width: 25%;
+  padding: 50px 4px;
+  margin: 0px;
+}
+.org {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  border: 1px solid black;
+  margin: 0px 0px 15px 0px;
+}
+.yel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid black;
+  margin: 0px 0px 15px 0px;
+}
+.whi {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
+  .red2 {
+    width: 50%;
+  }
+}
