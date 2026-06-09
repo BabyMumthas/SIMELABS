@@ -1,0 +1,168 @@
+html {
+  font-family: Epilogue, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 484px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
+
+.nav-items {
+  display: flex;
+  gap: 240px;
+}
+
+.content-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn {
+  width: 308px;
+  height: 110px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.content h1 {
+  font-family: Epilogue;
+  font-size: 123px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.content p {
+  padding-bottom: 25px;
+  font-size: 27px;
+}
+
+.img1 {
+  padding-top: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.con2 {
+  margin-top: 100px;
+}
+
+.con2-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.con2-header h3 {
+  font-size: 28px;
+}
+
+.con2 img {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 100px;
+}
+.card {
+  width: 500px;
+
+  h4 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+.con2 h2 {
+  font-size: 45px;
+}
+.content {
+  h5 {
+    font-size: 33px;
+  }
+}
+.con3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+
+  img {
+    width: 183px;
+    display: flex;
+    margin-left: 13px;
+  }
+  h3 {
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    font-size: 25px;
+        text-align: center;
+  }
+}
+.skill-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.con4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 9%;
+  gap: 146px;
+  margin-top: 7%;
+
+  img {
+    width: 80px;
+    height: 90px;
+    margin-top: 10%;
+  }
+}
+.skill-card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 22%;
+}
+.con4-paragraph {
+  display: flex;
+  gap: 60px;
+}
+.con4-head {
+  display: flex;
+  flex-direction: column;
+  p {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 29px;
+    display: flex;
+  }
+}

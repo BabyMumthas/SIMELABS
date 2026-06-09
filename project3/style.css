@@ -1,0 +1,60 @@
+.landing-page {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  color: white;
+}
+.landing-page .container {
+  height: 1070px;
+}
+.landing-page .items {
+  color: white;
+  font-family: Poppins;
+}
+.landing-page i {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+.search-box {
+  width: 500px;
+  height: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: rgb(216, 214, 214);
+}
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.search-box button {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  background: #e58411;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+}
+.hero-section {
+  flex-direction: column;
+  align-items: center;
+}
+.hero-section h1 {
+  font-family: Gliroy-Bold;
+  font-weight: 400;
+  font-size: 80px;
+}
+.hero-section hp {
+  font-family: Gliroy-Bold;
+  font-weight: 400;
+  font-size: 24px;
+}

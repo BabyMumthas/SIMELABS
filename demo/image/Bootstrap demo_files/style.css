@@ -1,0 +1,210 @@
+.hero {
+  background-image: url("images/Decore.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.hero-header h1 {
+  font-family: Volkhov;
+  color: #181e4b;
+  font-size: 84px;
+}
+.hero-header h6 {
+  color: #df6951;
+  font-family: Poppins;
+}
+.hero-header p {
+  font-family: Poppins;
+  color: #5e6282;
+}
+.navbar img {
+  margin-left: 75%;
+}
+
+span {
+  background-image: url("images/Decore (1).png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+a.nav-link {
+  color: #212832;
+  font-family: Google Sans;
+}
+.hero-content .btn {
+  width: 170px;
+  height: 60px;
+}
+.card-img-top {
+  width: 31%;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.category p {
+  font-family: Poppins;
+  color: #5e6282;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 600;
+}
+.category h2 {
+  font-family: Volkhov;
+  color: #14183e;
+  font-weight: 700;
+  font-size: 50px;
+}
+.services .container {
+  max-width: 87%;
+}
+.card-text {
+  font-family: Poppins;
+  color: rgba(94, 98, 130, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.card-title {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(30, 29, 76, 1);
+}
+.plane {
+  width: 50%;
+}
+.card2 {
+  width: 18rem;
+  box-shadow: 0px 29px 22px -2px rgba(236, 101, 180, 0.2);
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services {
+  background-image: url("images/Group 4.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 24px;
+}
+.destination img.card-img-top {
+  width: 100%;
+}
+.card.cards {
+  box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+.card-navigator img {
+  height: 0%;
+  width: 9%;
+}
+.card-img {
+  height: 438px;
+}
+.row.con2 {
+  background-image: url("images/Decore2.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-right: 24px;
+}
+.destination.container {
+  max-width: 87%;
+}
+.booking .container {
+  margin-top: 6%;
+  max-width: 75%;
+}
+
+.booking p {
+  font-family: Poppins;
+  color: #5e6282;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 600;
+}
+.booking h1 {
+  font-family: Volkhov;
+  color: #14183e;
+  font-weight: 700;
+  font-size: 50px;
+}
+.booking .col-4 {
+  width: 12%;
+}
+.booking img.card-img-top {
+  place-self: center;
+  width: 90%;
+  margin-top: 23px;
+}
+.icon {
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.testimonials.container {
+  margin-top: 6%;
+  max-width: 75%;
+}
+
+.testimonials p,
+h6 {
+  font-family: Poppins;
+  color: #5e6282;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 600;
+}
+.testimonials h1 {
+  font-family: Volkhov;
+  color: #14183e;
+  font-weight: 700;
+  font-size: 50px;
+}
+.testimonials .container {
+  margin-top: 6%;
+  max-width: 75%;
+}
+.testimonials .box {
+  box-shadow: 1px 9px 18px -3px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  width: 504px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials .col-6 {
+  background-image: url("images/Image2.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-bottom: 24px;
+}
+
+.logos .container {
+  margin-top: 6%;
+  max-width: 75%;
+}
+.logo img {
+  mix-blend-mode: luminosity;
+}
+.logo-color img {
+  mix-blend-mode: darken;
+}
+.logo-box {
+  box-shadow: 1px 12px 16px -5px rgba(0, 0, 0, 0.17);
+  border-radius: 10px;
+  height: 119px;
+}
+.sub-button {
+  background-color: #df6951;
+  border-radius: 10px;
+}
+
+.email-in{
+  width: 421px;
+  height: 200px;
+}

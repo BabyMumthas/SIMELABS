@@ -1,0 +1,28 @@
+.navbar-nav {
+  gap: 200px;
+}
+.navbar-brand {
+  width: 55%;
+}
+.container-fluid img {
+  width: 40%;
+}
+.container img {
+  width: 95%;
+}
+.container h1 {
+  font-size: 4.6rem;
+}
+.col img {
+  width: 30%;
+}
+
+.container1 img {
+  width: 30%;
+}
+
+@media (max-width: 575.98px) {
+  .latest {
+    color: red;
+  }
+}
