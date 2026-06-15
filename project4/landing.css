@@ -1,0 +1,174 @@
+.landing-page {
+  ul {
+    gap: 80px;
+  }
+  .btn {
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Poppins;
+    margin-left: 28px;
+  }
+  .btn1 {
+    background-color: white;
+    color: #5b5b5b;
+  }
+  .btn2 {
+    background-color: #7ecccd;
+    color: white;
+  }
+  .col-5 h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .col-5 .log-reg-btn button {
+    border-radius: 33px;
+    width: 146px;
+    height: 40px;
+    background-color: #92d6d6;
+    border: none;
+    color: white;
+  }
+  .log-reg-btn {
+    border-radius: 28px;
+    background-color: #92d6d6;
+    width: 329px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .log-reg-btn button:hover {
+    background-color: #49bbbd;
+    width: 50%;
+    height: 70%;
+  }
+  p1 {
+    color: #5b5b5b;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  label {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  input {
+    width: 435px;
+    height: 54px;
+    border-radius: 40px;
+    border-color: #49bbbd;
+  }
+  .form-check-input {
+    width: 15px;
+    height: 15px;
+  }
+  .loggin {
+    width: 232px;
+    height: 49px;
+    border-radius: 36px;
+    background-color: #49bbbd;
+    color: white;
+    border: none;
+    align-self: end;
+  }
+  .col-5 {
+    gap: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 46px;
+  }
+}
+.landing-page {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.navbar {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.reg-img {
+  background-image: url("images/Rectangle 77.png");
+  background-repeat: no-repeat;
+  border-radius: 0px 26px 26px 0px;
+  height: 824px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+.reg-img2 {
+  background-image: url("images/Rectangle 78.png");
+  background-repeat: no-repeat;
+  border-radius: 0px 26px 26px 0px;
+  height: 824px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+}
+.header {
+  .col-5 {
+    height: 972px;
+
+    h2 {
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 54px;
+      color: white;
+      margin-top: 175px;
+    }
+    span {
+      color: #f48c06;
+    }
+    p2 {
+      font-family: Nunito Sans;
+      font-weight: 400;
+      font-size: 24px;
+      color: white;
+    }
+    button {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 24ppx;
+      background-color: #92d6d6;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      width: 220px;
+      height: 80px;
+    }
+    i {
+      font-size: 63px;
+    }
+  }
+  .col-6 {
+    width: 51%;
+    height: 100%;
+
+    background-image:
+      url("images/Group 7.png"), url("images/Group 9.png"),
+      url("images/Group 10.png"), url("images/Group 13.png");
+    background-position:
+      10px 10px,
+      top right,
+      bottom left,
+      bottom right;
+    background-repeat: no-repeat;
+  }
+  img {
+    width: 544px;
+    height: 892px;
+    margin-left: 174px;
+  }
+}
