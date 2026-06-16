@@ -267,6 +267,7 @@ h1 {
   }
 }
 .what-is-totc {
+  margin: 90px;
   h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -295,39 +296,123 @@ h1 {
     font-weight: 500;
   }
   button:hover {
-    background-color: #23BDEEE5;
+    background-color: #23bdeee5;
     border: none;
   }
   .col1 {
     background-image: url("images/Rectangle 19.png");
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     height: 415px;
+    position: relative;
+    background-size: contain;
   }
   .col2 {
     background-image: url("images/Rectangle 21.png");
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     height: 415px;
+    position: relative;
+    background-size: contain;
   }
   .overlay {
-    position: relative;
+    position: absolute;
     opacity: 60%;
-    background-color: #171b41;
-    height: 96%;
-    top: -8px;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
     bottom: 0px;
-    left: -10px;
-    right: 1px;
+    left: 0;
+    right: 0;
     width: 94%;
     border-radius: 16px;
+    z-index: 1;
   }
   .students {
-    position: absolute;
+    position: relative;
     align-self: center;
+
+    z-index: 3;
   }
+
   .instructors {
-    position: absolute;
+    position: relative;
     align-self: center;
     margin-right: 33px;
+    z-index: 3;
+  }
+}
+.do-with-totc {
+  margin: 170px;
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2f327d;
+    line-height: 180%;
+    span {
+      color: #00cbb8;
+    }
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #696984;
+    line-height: 180%;
+    margin-bottom: 60px;
+  }
+  a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #696984;
+    line-height: 180%;
+    margin-bottom: 103px;
+  }
+  .col1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("images/Ellipse 12.png") no-repeat;
+    left: 2px;
+    top: 0%;
+    z-index: -1;
+  }
+  .col1 {
+    position: relative;
+  }
+  .col1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("images/Ellipse 13.png") no-repeat;
+    left: 86%;
+    top: 43%;
+  }
+  .col2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("images/Rectangle 18.png") no-repeat;
+    left: -5px;
+    top: -3%;
+    z-index: -1;
+  }
+  .col2 {
+    position: relative;
+  }
+  .col2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("images/Rectangle 17.png") no-repeat;
+    left: 65%;
+    top: 56%;
+    z-index: -1;
   }
 }
 
