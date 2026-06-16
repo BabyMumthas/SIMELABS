@@ -153,13 +153,10 @@
   }
   .back {
     height: 100%;
-
     background-image: url("images/Group 7.png"), url("images/Group 9.png");
-
     background-position:
       1px 251px,
       599px 160px;
-
     background-repeat: no-repeat;
   }
   .back::after {
@@ -252,7 +249,7 @@ h1 {
     font-size: 30px;
     color: #2f327d;
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .card-text {
     font-family: "Poppins", sans-serif;
@@ -267,6 +264,70 @@ h1 {
   .card-body {
     box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+  }
+}
+.what-is-totc {
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #696984;
+    line-height: 180%;
+    margin-bottom: 103px;
+  }
+  button {
+    width: 283px;
+    height: 80px;
+    opacity: 1;
+    border-radius: 80px;
+    border-width: 1px;
+    color: #ffffff;
+    background-color: transparent;
+    border: solid white;
+    align-self: center;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  button:hover {
+    background-color: #23BDEEE5;
+    border: none;
+  }
+  .col1 {
+    background-image: url("images/Rectangle 19.png");
+    background-repeat: no-repeat;
+    height: 415px;
+  }
+  .col2 {
+    background-image: url("images/Rectangle 21.png");
+    background-repeat: no-repeat;
+    height: 415px;
+  }
+  .overlay {
+    position: relative;
+    opacity: 60%;
+    background-color: #171b41;
+    height: 96%;
+    top: -8px;
+    bottom: 0px;
+    left: -10px;
+    right: 1px;
+    width: 94%;
+    border-radius: 16px;
+  }
+  .students {
+    position: absolute;
+    align-self: center;
+  }
+  .instructors {
+    position: absolute;
+    align-self: center;
+    margin-right: 33px;
   }
 }
 
@@ -356,12 +417,11 @@ h1 {
   }
   .cloud-software {
     margin: 9px;
-    
   }
   .con {
     flex-direction: column;
   }
-  .con .card{
+  .con .card {
     width: 100%;
   }
 }
