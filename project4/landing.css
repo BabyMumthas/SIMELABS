@@ -82,8 +82,7 @@
     gap: 44px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     margin: 46px;
   }
 }
@@ -152,19 +151,39 @@
       font-size: 63px;
     }
   }
-  .col-6 {
-    width: 51%;
+  .back {
     height: 100%;
 
-    background-image:
-      url("images/Group 7.png"), url("images/Group 9.png"),
-      url("images/Group 10.png"), url("images/Group 13.png");
+    background-image: url("images/Group 7.png"), url("images/Group 9.png");
+
     background-position:
-      10px 10px,
-      top right,
-      bottom left,
-      bottom right;
+      1px 251px,
+      599px 160px;
+
     background-repeat: no-repeat;
+  }
+  .back::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    background: url("images/Group 13.png") no-repeat;
+    top: 571px;
+    right: 4px;
+  }
+
+  .back {
+    position: relative;
+  }
+  .back::before {
+    content: "";
+    position: absolute;
+    width: 410px;
+    height: 402px;
+    background: url("images/Group 10.png") no-repeat;
+
+    top: 452px;
+    right: -32px;
   }
   img {
     width: 544px;
