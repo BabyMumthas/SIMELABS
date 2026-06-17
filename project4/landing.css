@@ -416,7 +416,7 @@ h1 {
   }
 }
 .features {
-  margin: 50px;
+  margin: 100px;
   margin-left: 153px;
   .head p {
     font-family: "Poppins", sans-serif;
@@ -496,6 +496,36 @@ h1 {
     border: none;
     font-size: 23px;
     font-weight: 700;
+  }
+}
+.tools {
+  margin: 150px;
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #696984;
+    line-height: 180%;
+  }
+  .col-7 {
+    background-image:
+      url("images/Group 75.png"), url("images/Group 77.png"),
+      url("images/Group 78.png"), url("images/Ellipse 98.png"),
+      url("images/Ellipse 100.png"), url("images/Ellipse 99.png");
+
+    background-repeat: no-repeat;
+    background-position:
+      168px 86px,
+      16% 12%,
+      80% 25%,
+      74% 88%,
+      65% 9%,
+      14% 75%;
+  }
+  .col-5 {
+    background-image: url("images/Group 69.png");
+    background-repeat: no-repeat;
+    background-position: 59% 77%;
   }
 }
 
