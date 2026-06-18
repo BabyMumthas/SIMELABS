@@ -752,6 +752,181 @@ h1 {
       27% 81%;
     padding-top: 0px;
   }
+  .btn {
+    width: 262px;
+    height: 71px;
+    border-radius: 80px;
+    background-color: transparent;
+    border: #49bbbd solid;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    font-family: Poppins;
+    display: flex;
+    justify-self: center;
+    color: #49bbbd;
+    display: flex;
+    justify-self: center;
+    margin: 121px;
+  }
+}
+.explore-course::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 119%;
+  background-color: #ebf5ff;
+  left: -19%;
+  top: -9%;
+  z-index: -1;
+  border-radius: 0px 0px 10% 0px;
+}
+.explore-course {
+  position: relative;
+  padding-left: 164px;
+  margin-bottom: 330px;
+  .det {
+    width: 684px;
+    height: 400px;
+  }
+  img {
+    height: 418px;
+    width: 137px;
+  }
+  h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+  }
+  p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #5b5b5b;
+    margin-bottom: 122px;
+  }
+  h4 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 42px;
+  }
+  i {
+    color: #5b5b5b;
+    margin-right: 10px;
+
+    font-size: 24px;
+  }
+  .see-all {
+    h5 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 24px;
+      color: #00bcd4;
+      line-height: 100%;
+      letter-spacing: 0px;
+      text-transform: uppercase;
+    }
+    i {
+      color: #00bcd4;
+    }
+  }
+
+  .background-down {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .background-down::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: url("images/Rectangle.png") no-repeat;
+    left: -1%;
+    top: 85%;
+    z-index: -1;
+  }
+}
+.testimonial {
+  font-family: Poppins;
+  margin-top: 300px;
+  margin: 150px;
+  h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #696984;
+    line-height: 180%;
+    margin-bottom: 30px;
+  }
+  h6 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 20%;
+    color: #525596;
+    margin-bottom: 30px;
+  }
+  .carousel-item {
+    p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 180%;
+      letter-spacing: 2%;
+      color: #5f5f7e;
+    }
+    h6 {
+      font-family: Nunito Sans;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 180%;
+      letter-spacing: 0%;
+      color: #5f5f7e;
+    }
+  }
+  .carousel-text-card {
+    box-shadow: 5px 5px 32px 16px rgba(133, 133, 133, 0.2);
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    width: 81%;
+    bottom: 190px;
+    left: 20px;
+  }
+  .button {
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 2%;
+    color: #49bbbd;
+    width: 403px;
+    height: 86px;
+    border-width: 1px;
+    border-radius: 80px;
+    border: solid #49bbbd;
+    background-color: white;
+    margin-top: 77px;
+  }
 }
 @media (max-width: 1440px) {
   .header {
