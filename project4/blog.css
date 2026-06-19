@@ -103,18 +103,18 @@
   }
 }
 .related-blog {
-    background-color: #ebf5ff;
+  background-color: #ebf5ff;
   padding: 90px 114px 90px 114px;
-  .con{gap: 245px;}
-   h3 {
+  .con {
+    gap: 245px;
+  }
+  h3 {
     font-family: Poppins;
     font-weight: 700;
     font-size: 30px;
     line-height: 100%;
     letter-spacing: 0%;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    
+    margin-left: 123px;
   }
   .card-title {
     font-family: Poppins;
@@ -132,7 +132,6 @@
     font-size: 20px;
     line-height: 180%;
     letter-spacing: 2%;
-    
   }
   i {
     color: #49bbbd;
@@ -145,7 +144,6 @@
     line-height: 180%;
     letter-spacing: 2%;
     margin-top: 20px;
-    
   }
   a {
     font-family: Poppins;
@@ -159,12 +157,12 @@
   .read-more {
     justify-content: space-between;
     margin-top: 40px;
-    
   }
   .card {
     width: 42%;
     box-shadow: 0px 0px 35px -1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    position: relative;
   }
   .card-img-top {
     align-self: center;
@@ -174,4 +172,89 @@
   .card-body {
     margin: 16px;
   }
+  .carousel-control-prev {
+    position: absolute;
+    top: 100%;
+    left: 78%;
+  }
+  .carousel-control-next {
+    position: absolute;
+    top: 100%;
+    left: 83%;
+  }
+}
+.marketing-articles {
+  margin: 90px 114px 90px 114px;
+  .card-img-top {
+    width: 88%;
+    align-self: center;
+    padding-top: 18px;
+  }
+  .card {
+    gap: 20px;
+    box-shadow: 0px 0px 35px -1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  h6 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    color: #696984;
+  }
+  .card-title {
+    color: #252641;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+  }
+  .card-text {
+    color: #696984;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    margin-bottom: 30px;
+  }
+  strike {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+    text-decoration: line-through;
+    color: #000000;
+    opacity: 50%;
+  }
+  h2 {
+    color: #49bbbd;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    vertical-align: middle;
+  }
+  .card-body {
+    padding: 6px 27px 27px 27px;
+  }
+  .time {
+    padding: 9px 44px 0px 27px;
+  }
+   h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 23px;
+    margin-bottom: 50px;
+  }
+ 
 }
