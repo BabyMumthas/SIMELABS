@@ -1,0 +1,176 @@
+.landing-page {
+  ul {
+    gap: 80px;
+  }
+  .navbar {
+    margin: 0px 18px 0px 18px;
+  }
+  .header {
+    margin: 77px 77px 114px 114px;
+    .card-body {
+      h3 {
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 18px;
+        color: #49bbbd;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+      }
+      i {
+        font-size: 25px;
+        color: #909394;
+      }
+      p {
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 18px;
+
+        line-height: 39px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+      }
+      .card-title {
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 48px;
+        color: black;
+        line-height: 56px;
+        letter-spacing: -1px;
+        vertical-align: middle;
+        margin-bottom: 30px;
+      }
+      span {
+        font-family: Poppins;
+        font-weight: 800;
+        font-size: 12px;
+        color: black;
+        line-height: 100%;
+        letter-spacing: 2.5px;
+        vertical-align: middle;
+        text-transform: uppercase;
+      }
+      .btn {
+        width: 306px;
+        height: 64px;
+        opacity: 1;
+        font-family: poppins;
+        font-weight: 700;
+        font-size: 18px;
+        color: #49bbbd;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 16px;
+        margin-left: 44px;
+      }
+      .btn:hover {
+        background-color: #49bbbd;
+        color: white;
+      }
+      .free {
+        margin-top: 110px;
+      }
+      .editor {
+        margin-top: 48px;
+      }
+    }
+  }
+  h1 {
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 64px;
+    color: #49bbbd;
+    line-height: 100%;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 109px;
+  }
+  .card {
+    box-shadow: 0px 0px 51px -1px rgba(173, 173, 173, 0.2);
+    border-radius: 20px;
+  }
+  .card:hover {
+    box-shadow: 0px 0px 46px 9px rgba(99, 95, 95, 0.2);
+    border-radius: 20px;
+    i {
+      color: #fdcb6e;
+    }
+  }
+  .best {
+    border-radius: 30px;
+    width: 90px;
+    height: 32px;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 2.5px;
+    text-align: center;
+    vertical-align: bottom;
+    text-transform: uppercase;
+  }
+}
+
+.footer {
+  padding: 150px;
+  color: white;
+  background-color: #252641;
+  input {
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border-width: 1px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: #a3a3ac;
+    border: #83839a solid;
+    background-color: transparent;
+    padding-left: 30px;
+  }
+  .btn {
+    width: 179px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #49bbbd;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 16px;
+  }
+  .footer-bottom {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 96px;
+    h6 {
+      font-size: 22px;
+    }
+  }
+  .footer-bottom2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 6px;
+    h6 {
+      font-size: 22px;
+    }
+  }
+}

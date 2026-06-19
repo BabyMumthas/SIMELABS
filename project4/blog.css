@@ -258,3 +258,62 @@
   }
  
 }
+.footer {
+  padding: 150px;
+  color: white;
+  background-color: #252641;
+  input {
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border-width: 1px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: #a3a3ac;
+    border: #83839a solid;
+    background-color: transparent;
+    padding-left: 30px;
+  }
+  .btn {
+    width: 179px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #49bbbd;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 16px;
+  }
+  .footer-bottom {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 96px;
+    h6{
+      font-size: 22px;
+    }
+  }
+  .footer-bottom2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 6px;
+    h6{
+      font-size: 22px;
+    }
+  }
+}
