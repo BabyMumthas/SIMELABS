@@ -262,7 +262,7 @@
   .btns {
     gap: 22px;
   }
-   .btn1 {
+  .btn1 {
     width: 236px;
     height: 63px;
     font-family: Poppins;
@@ -270,16 +270,17 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
-    background-color: #29B9E7;
+    background-color: #29b9e7;
     color: white;
     opacity: 1;
     border-radius: 12px;
     padding-top: 25px;
     margin-top: 73px;
-        display: flex;
+    display: flex;
     gap: 15px;
     justify-content: center;
-  } .btn2 {
+  }
+  .btn2 {
     width: 236px;
     height: 63px;
     font-family: Poppins;
@@ -293,16 +294,64 @@
     border-radius: 12px;
     padding-top: 25px;
     margin-top: 73px;
-        display: flex;
+    display: flex;
     gap: 15px;
     justify-content: center;
   }
 }
-.role{
+.role {
+  padding: 90px 121px 90px 121px;
+  .card-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 26px;
 
+    line-height: 180%;
+    letter-spacing: 0%;
+  }
+  .card-text {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 2%;
+  }
+  .btn {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    width: 254px;
+    height: 63px;
+    color: white;
+    background-color: #49bbbd;
+    border-radius: 12px;
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+    margin-bottom: 23px;
+  }
+  .card {
+    box-shadow: 0px 0px 20px 1px rgba(255 110 182 / 20%);
+    border-radius: 20px;
+    width: 786px;
+height: 762px;
 
+opacity: 1;
 
-    
+  }
+  .card-img-top {
+    padding: 34px 33px 14px 33px;
+  }
+  .card-body {
+    padding: 30px;
+  }
+  .col-6{width: 48%;}
+  .row{gap: 67px;}
 }
 .footer {
   padding: 150px;
