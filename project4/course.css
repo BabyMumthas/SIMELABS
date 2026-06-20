@@ -429,6 +429,50 @@ letter-spacing: 0%;
     margin-bottom: 50px;
   }
  }
+ .online-coaching {
+  color: white;
+  border-radius: 37px;
+  background-color: #252641;
+  margin: 120px 190px 120px 190px;
+  .btn {
+    width: 236px;
+    height: 63px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #49bbbd;
+    color: white;
+    opacity: 1;
+    border-radius: 12px;
+    padding-top: 25px;
+    margin-top: 73px;
+  }
+  .card-title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .card-text {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    text-align: center;
+    color: white;
+  }
+  .card-body {
+    border-radius: 37px;
+    background-color: #252641;
+    padding: 70px 58px 70px 58px;
+  }
+}
 .footer {
   padding: 150px;
   color: white;
