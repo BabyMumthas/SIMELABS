@@ -115,7 +115,7 @@
   }
 }
 .online-coaching {
-    color: white;
+  color: white;
   border-radius: 37px;
   background-color: #252641;
   margin: 120px 190px 120px 190px;
@@ -155,7 +155,41 @@
   .card-body {
     border-radius: 37px;
     background-color: #252641;
-            padding: 70px 58px 70px 58px
+    padding: 70px 58px 70px 58px;
+  }
+}
+.lessons {
+  margin: 77px 77px 114px 114px;
+  img {
+    height: 23px;
+    width: 23px;
+  }
+  h5 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+  }
+  h6 {
+    color: #2d3436;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+  }
+  hr{    margin-top: -14px;}
+  .card {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 2%;
   }
 }
 .footer {
