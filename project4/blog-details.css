@@ -1,0 +1,137 @@
+.landing-page {
+  ul {
+    gap: 80px;
+  }
+  .navbar {
+    margin: 0px 18px 0px 18px;
+  }
+}
+.header {
+  .overlay {
+    position: absolute;
+    opacity: 60%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 126px;
+    bottom: -207px;
+    left: 0px;
+    right: 0;
+    z-index: 1;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.header-content {
+  margin: 80px 120px 80px 120px;
+
+  h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 44px;
+    color: #2f327d;
+    line-height: 180%;
+    letter-spacing: 0%;
+  }
+  p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 2%;
+  }
+  .tag {
+    gap: 35px;
+    h6 {
+      width: 136px;
+      height: 49px;
+      background-color: #edf8f8;
+      opacity: 1;
+      border-radius: 36px;
+      text-align: center;
+      place-content: center;
+      color: #696984;
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+}
+
+h6 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  color: #696984;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+h5 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+.footer {
+  padding: 150px;
+  color: white;
+  background-color: #252641;
+  input {
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border-width: 1px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: #a3a3ac;
+    border: #83839a solid;
+    background-color: transparent;
+    padding-left: 30px;
+  }
+  .btn {
+    width: 179px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #49bbbd;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 16px;
+  }
+  .footer-bottom {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 96px;
+    h6 {
+      font-size: 22px;
+    }
+  }
+  .footer-bottom2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 6px;
+    h6 {
+      font-size: 22px;
+    }
+  }
+}
