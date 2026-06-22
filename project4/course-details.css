@@ -1,0 +1,151 @@
+.landing-page {
+  ul {
+    gap: 80px;
+  }
+  .navbar {
+    margin: 0px 18px 0px 18px;
+  }
+  .header {
+    .overlay {
+      position: absolute;
+      opacity: 60%;
+      background: rgba(0, 0, 0, 0.6);
+      top: 126px;
+      bottom: 138px;
+      left: 0px;
+      right: 0;
+      z-index: 1;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+.overview {
+  margin: 55px 157px 55px 157px;
+  button {
+    width: 200px;
+    height: 63px;
+    top: 856px;
+    left: 407px;
+    border-radius: 12px;
+    background-color: #cfcfcf;
+    opacity: 1;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+    color: #757575;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+  }
+  button:hover {
+    background-color: #49bbbd;
+    color: white;
+  }
+  .star {
+    width: 50%;
+  }
+  .rate-card {
+    background-color: #e2f0ff;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 87px;
+  }
+  .progress-bar img {
+    width: 432px;
+    height: 8px;
+  }
+  .progress-bar {
+    margin-left: 45px;
+  }
+  .box {
+    width: 257px;
+    height: 199px;
+    top: 1052px;
+    left: 207px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  h4 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    color: #757575;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
+  p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #757575;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
+}
+.footer {
+  padding: 150px;
+  color: white;
+  background-color: #252641;
+  input {
+    width: 400px;
+    height: 60px;
+    border-radius: 80px;
+    border-width: 1px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    color: #a3a3ac;
+    border: #83839a solid;
+    background-color: transparent;
+    padding-left: 30px;
+  }
+  .btn {
+    width: 179px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #49bbbd;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 16px;
+  }
+  .footer-bottom {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 96px;
+    h6 {
+      font-size: 22px;
+    }
+  }
+  .footer-bottom2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #b2b3cf;
+    padding-top: 6px;
+    h6 {
+      font-size: 22px;
+    }
+  }
+}
