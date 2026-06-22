@@ -12,18 +12,19 @@
     opacity: 60%;
     background: rgba(0, 0, 0, 0.6);
     top: 126px;
-    bottom: -207px;
+    bottom: 138px;
     left: 0px;
     right: 0;
     z-index: 1;
-    img {
+    
+  }
+  img {
       width: 100%;
     }
-  }
 }
 
 .header-content {
-  margin: 80px 120px 80px 120px;
+  margin: 80px 120px 39px 120px;
 
   h1 {
     font-family: Poppins;
