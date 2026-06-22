@@ -59,6 +59,24 @@
       letter-spacing: 0%;
     }
   }
+  button {
+    width: 232px;
+    height: 49px;
+    top: 1618px;
+    left: 1555px;
+    border-radius: 10px;
+    border-width: 1px;
+    color: #49bbbd;
+    opacity: 1;
+    border: #49bbbd ;
+    font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+background-color: transparent;
+
+  }
 }
 
 h6 {
@@ -75,6 +93,87 @@ h5 {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 2%;
+}
+.related-blog {
+  background-color: #ebf5ff;
+  padding: 90px 54px 90px 54px;
+  .con {
+    gap: 245px;
+  }
+  h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 123px;
+  }
+  .card-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 26px;
+    color: #252641;
+    line-height: 180%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+  }
+  .card-text {
+    color: #696984;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 2%;
+  }
+  i {
+    color: #49bbbd;
+  }
+  p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 2%;
+    margin-top: 20px;
+  }
+  a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 2%;
+    margin-top: 30px;
+  }
+  .read-more {
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .card {
+    width: 42%;
+    box-shadow: 0px 0px 35px -1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    position: relative;
+  }
+  .card-img-top {
+    align-self: center;
+    margin: 30px 0px 0px 0px;
+    width: 87%;
+  }
+  .card-body {
+    margin: 16px;
+  }
+  .carousel-control-prev {
+    position: absolute;
+    top: 100%;
+    left: 78%;
+  }
+  .carousel-control-next {
+    position: absolute;
+    top: 100%;
+    left: 83%;
+  }
 }
 .footer {
   padding: 150px;
