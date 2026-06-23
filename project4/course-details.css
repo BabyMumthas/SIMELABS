@@ -277,6 +277,15 @@
     margin-left: 23px;
     margin-bottom: 50px;
   }
+  h4 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+    color: #49bbbd;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+  }
 }
 .do-with-totc {
   margin: 170px;
