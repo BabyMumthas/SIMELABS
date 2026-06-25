@@ -349,6 +349,14 @@
     }
   }
   .footer {
+    .logo img {
+      width: 1%;
+      height: 63px;
+
+      .log {
+        width: 48%;
+      }
+    }
     padding: 20px;
     img {
       width: 0px;
@@ -357,6 +365,9 @@
       flex-direction: column;
       padding-top: 0px;
       gap: 15px !important;
+    }
+    .btn {
+      margin-top: 27px;
     }
   }
   .deals {
