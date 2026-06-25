@@ -531,20 +531,20 @@ h1 {
 }
 
 .modal-content {
-    background-color: white !important;
-    opacity: 1 !important;
-    border: none !important;
+  background-color: white !important;
+  opacity: 1 !important;
+  border: none !important;
 }
 
 .modal-body {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .modal-dialog {
-    background-color: white !important;
+  background-color: white !important;
 }
 .modal-content {
-    background: white !important;
+  background: white !important;
 }
 .tests {
   background-image:
@@ -1056,7 +1056,7 @@ h1 {
     text-align: center;
     color: #b2b3cf;
     padding-top: 96px;
-    h6{
+    h6 {
       font-size: 22px;
     }
   }
@@ -1069,7 +1069,7 @@ h1 {
     text-align: center;
     color: #b2b3cf;
     padding-top: 6px;
-    h6{
+    h6 {
       font-size: 22px;
     }
   }
@@ -1153,18 +1153,7 @@ h1 {
 }
 
 @media (max-width: 1024px) {
-  .our-success {
-    .row {
-      flex-direction: column;
-    }
-  }
-  .cloud-software {
-    margin: 9px;
-  }
-  .con {
-    flex-direction: column;
-  }
-  .con .card {
-    width: 100%;
+  .explore-course {
+    padding: 30px;
   }
 }

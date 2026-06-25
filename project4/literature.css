@@ -5,9 +5,366 @@
   .navbar {
     margin: 0px 18px 0px 18px;
   }
- 
+  .header {
+    position: relative;
+    .banner {
+      margin: 30px 120px 30px 120px;
+      background-image: url("images/4d6037c90bb1135f6b589165ed30ee1ab58ddac4.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 1679px;
+      height: 415px;
+      top: 143px;
+      left: 120px;
+
+      opacity: 1;
+      border-radius: 20px;
+    }
+    .overlay {
+      position: absolute;
+      opacity: 40%;
+      background: #000000;
+      top: 0px;
+      bottom: 1px;
+      left: 133px;
+      right: 94px;
+      z-index: 1;
+      border-radius: 17px;
+    }
+
+    .bg {
+      width: 363px;
+      height: 363px;
+      top: 30px;
+      align-content: center;
+      text-align: center;
+      background-color: white;
+      border-radius: 100%;
+      position: absolute;
+      z-index: 1;
+      bottom: 21px;
+      left: 192px;
+    }
+    .content {
+      padding: 50px;
+      position: absolute;
+      z-index: 1;
+      width: 1199px;
+      height: 348px;
+      top: 37px;
+      left: 584px;
+      border-radius: 20px;
+      background-color: white;
+      opacity: 80%;
+    }
+    h1 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 100%;
+      letter-spacing: 2%;
+    }
+    h6 {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 18px;
+      color: #2d3436;
+      opacity: 70%;
+      line-height: 32px;
+      letter-spacing: 0px;
+      vertical-align: middle;
+    }
+    .btn {
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 24px;
+      color: white;
+      background-color: #49bbbd;
+      line-height: 100%;
+      letter-spacing: 0%;
+      width: 184px;
+      height: 63px;
+      align-content: center;
+      border-radius: 12px;
+    }
+    p {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 25px;
+      color: #2d3436;
+      line-height: 32px;
+      letter-spacing: 0px;
+      vertical-align: middle;
+    }
+    h5 {
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 15px;
+      color: #2d3436;
+      opacity: 80%;
+      line-height: 32px;
+      letter-spacing: 0px;
+      vertical-align: middle;
+    }
+    i {
+      padding-right: 10px;
+    }
+    .logos i {
+      font-size: 32px;
+      color: #49bbbd;
+      padding-right: 30px;
+    }
+  }
+}
+.buttons {
+  margin: 54px 128px 54px 131px;
+  gap: 26px;
+  display: flex;
+  button {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 184px;
+    height: 63px;
+    top: 626px;
+    left: 329px;
+    border-radius: 12px;
+    color: #696969;
+
+    background-color: #bbbbbb;
+    border: none;
+  }
+  button:hover {
+    background-color: #49bbbd;
+    color: white;
+  }
+}
+.course {
+  margin: 130px 117px 130px 117px;
+  .card {
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 110px;
+    padding: 25px;
+  }
+  h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
+  h1 {
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 30px;
+    color: #49bbbd;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
+  h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
 }
 
+.model {
+  .modal-content {
+    background-color: #ebf5ff;
+    padding: 33px;
+  }
+  .modal-dialog {
+    max-width: 1462px;
+  }
+  .main-img {
+    width: 100%;
+  }
+  .sub-img {
+    top: 3%;
+    left: 77%;
+    width: 19%;
+    gap: 13px;
+    img {
+      border: white solid;
+      border-radius: 11px;
+    }
+  }
+  .lessons a.btn {
+    opacity: 1;
+    border-radius: 19px;
+    border-width: 1px;
+    border-color: #49bbbd;
+  }
+  .icons {
+    font-size: 28px;
+    gap: 53px;
+    top: 80%;
+    left: 5%;
+    height: 85px;
+    background-color: #bdd6d8;
+    padding: 20px 28px 20px 155px;
+    border-radius: 20px;
+    width: 89%;
+    .fa-video {
+      color: red;
+      background-color: white;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .fa-microphone {
+      color: rgb(69, 182, 216);
+      background-color: white;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .fa-phone {
+      color: rgb(240, 62, 186);
+      background-color: white;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .fa-desktop {
+      color: rgb(35, 201, 123);
+      background-color: white;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .fa-right-from-bracket {
+      color: rgb(0, 174, 255);
+      background-color: white;
+      padding: 8px;
+      border-radius: 10px;
+    }
+  }
+  .arrow {
+    width: 112%;
+    height: 46%;
+    align-self: center;
+  }
+  .col-8 {
+    h1 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 20px;
+      color: #252641;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+    button {
+      border: none;
+      background-color: #4bb;
+      height: 100%;
+      align-self: center;
+    }
+    p {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 13px;
+      color: #252641;
+      line-height: 100%;
+      letter-spacing: 2%;
+    }
+    .fa-gear {
+      font-size: 25px;
+      color: gray;
+      padding-top: 10px;
+    }
+    .content {
+      padding: 29px 11px 11px 12px;
+      background-color: white;
+      margin: 5px 0px 19px 28px;
+      border-radius: 21px;
+      gap: 392px;
+    }
+  }
+  .col-4 {
+    .card-img-top {
+      align-self: center;
+    }
+    h1 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 29px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+    .card {
+      padding: 7px;
+      margin: 5px;
+    }
+    h6 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 14px;
+      color: #49bbbd;
+      line-height: 180%;
+      letter-spacing: 2%;
+    }
+    h3 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 180%;
+      letter-spacing: 2%;
+    }
+
+    h2 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+    h5 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 14px;
+      color: #252641;
+      opacity: 80%;
+      line-height: 180%;
+      letter-spacing: 2%;
+      padding-right: 10px;
+    }
+    h4 {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 109%;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    .progress {
+      width: 66px;
+      height: 4px;
+    }
+    span {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 24px;
+      color: #49bbbd;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+    .fa-calendar {
+      color: #49bbbd;
+    }
+  }
+}
+
+.carousel-indicators button {
+  width: 39px !important;
+  height: 39px !important;
+  background-color: #000 !important;
+}
 .footer {
   padding: 150px;
   color: white;
