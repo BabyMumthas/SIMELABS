@@ -327,3 +327,58 @@
     }
   }
 }
+@media (max-width: 430px) {
+  .check-out {
+    margin: 20px;
+    .row {
+      flex-direction: column;
+    }
+    .col-6 {
+      width: 100%;
+      padding: 13px;
+      img {
+        width: 62px;
+      }
+      .date {
+        flex-direction: column;
+        gap: 0px !important;
+      }
+    }
+    .col-5 {
+      width: 100%;
+    }
+  }
+  .footer {
+    padding: 20px;
+    img {
+      width: 0px;
+    }
+    .footer-bottom {
+      flex-direction: column;
+      padding-top: 0px;
+      gap: 15px !important;
+    }
+  }
+  .deals {
+    .what-is-totc {
+      margin: 20px;
+      h2 {
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 21px;
+      }
+      .row {
+        gap: 17px;
+      }
+      h4 {
+        margin-top: 33px;
+        font-size: 17px;
+      }
+      .instructors {
+        gap: 0px;
+        margin: 10px;
+      }
+    }
+  }
+}
