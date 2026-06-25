@@ -40,6 +40,7 @@
       line-height: 100%;
       letter-spacing: 0%;
       border: none;
+      margin-right: 22px;
     }
     button:hover {
       background-color: #49bbbd;
@@ -102,6 +103,188 @@
       border-radius: 20px;
       border-color: white;
       bottom: 31%;
+      z-index: 1;
+    }
+    .overlay {
+      position: absolute;
+      opacity: 60%;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      z-index: 1;
+      height: 22%;
+    }
+    h3 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 45px;
+      line-height: 200%;
+      letter-spacing: 2%;
+    }
+    h5 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 28px;
+      color: #757575;
+      line-height: 100%;
+      letter-spacing: 2%;
+    }
+    h1 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 20px;
+      color: #49bbbd;
+      line-height: 100%;
+      letter-spacing: 2%;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 30px;
+      line-height: 200%;
+      letter-spacing: 2%;
+    }
+    .share i {
+      color: #757575;
+      font-size: 32px;
+      opacity: 1;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+    .share i:hover {
+      color: #49bbbd;
+    }
+  }
+  i {
+    color: #49bbbd;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  h6 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    color: #757575;
+    line-height: 180%;
+    letter-spacing: 2%;
+  }
+  p {
+    color: #696984;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    margin-bottom: 30px;
+  }
+  button {
+    width: 410px;
+    height: 63px;
+    top: 955px;
+    left: 1328px;
+    color: white;
+    background-color: #49bbbd;
+    opacity: 1;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+    margin-bottom: 20px;
+  }
+}
+.cards {
+  display: none;
+  border: none;
+  .col-7 {
+    button {
+      width: 200px;
+      height: 63px;
+      top: 856px;
+      left: 407px;
+      border-radius: 12px;
+      background-color: #cfcfcf;
+      opacity: 1;
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 20px;
+      color: #757575;
+      line-height: 100%;
+      letter-spacing: 0%;
+      border: none;
+    }
+    button:hover {
+      background-color: #49bbbd;
+      color: white;
+    }
+  }
+  .star {
+    width: 50%;
+  }
+  .rate-card {
+    background-color: #e2f0ff;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 87px;
+  }
+  .progress-bar img {
+    width: 432px;
+    height: 8px;
+  }
+  .progress-bar {
+    margin-left: 45px;
+  }
+  .box {
+    width: 257px;
+    height: 199px;
+    top: 1052px;
+    left: 207px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  h4 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    color: #757575;
+    line-height: 100%;
+    letter-spacing: 2%;
+  }
+  p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #757575;
+    line-height: 150%;
+    letter-spacing: 2%;
+  }
+  .col-4 {
+    .card {
+      width: 501px;
+      height: 1275px;
+
+      opacity: 1;
+      border-width: 30px;
+      border-radius: 20px;
+      border-color: white;
+
       z-index: 1;
     }
     .overlay {
@@ -551,6 +734,151 @@
     padding-top: 6px;
     h6 {
       font-size: 22px;
+    }
+  }
+}
+@media (max-width: 430px) {
+  .overlay {
+    height: 16%;
+  }
+  .overview {
+    margin: 20px;
+    .col-4 {
+      display: none;
+      .card {
+        display: none;
+      }
+    }
+    .progress-bar img {
+      width: 65%;
+    }
+    .col-7 {
+      width: 100%;
+      button {
+        width: 172px;
+      }
+      .rate-card {
+        padding: 15px;
+        margin-top: 0px;
+      }
+    }
+  }
+  .cards {
+    display: flex;
+    .col-4{
+       .card{
+      width: 429px;
+    }
+    h3{font-size: 31px;}
+    h5{
+      font-size: 21px;
+    }
+    .overlay{
+      height: 18%;
+    }
+    button{
+      width: 327px;
+    }
+    }
+
+   
+  }
+  .do-with-totc {
+    margin: 20px;
+    .row {
+      flex-direction: column;
+    }
+    .col-6 {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .col1::after {
+      width: 9%;
+    }
+    .col2::after {
+      width: 35%;
+      height: 48%;
+    }
+    .col1 {
+      margin-bottom: 30px;
+    }
+  }
+  .view {
+    padding: 0px;
+    .col-3 {
+      width: 100%;
+    }
+    .row {
+      gap: 46px;
+      flex-direction: row;
+    }
+    .card {
+      width: 100%;
+      height: 100%;
+    }
+    .con {
+      margin: 20px;
+    }
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 23px;
+      margin-left: 5px;
+      font-size: 24px;
+    }
+    h4 {
+      margin-top: 28px;
+      margin-bottom: 23px;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 17px;
+    }
+  }
+  .what-is-totc {
+    margin: 20px;
+    .instructors {
+      gap: 16px;
+      margin-top: 22px;
+    }
+    .overlay {
+      height: 100%;
+    }
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 23px;
+      margin-left: 5px;
+      font-size: 24px;
+    }
+    h4 {
+      margin-top: 28px;
+      margin-bottom: 23px;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 17px;
+    }
+  }
+  .footer {
+    padding: 20px;
+    .logo img {
+      width: 1%;
+      height: 63px;
+
+      .log {
+        width: 48%;
+      }
+    }
+
+    img {
+      width: 0px;
+    }
+    .footer-bottom {
+      flex-direction: column;
+      padding-top: 0px;
+      gap: 15px !important;
+    }
+    .btn {
+      margin-top: 27px;
     }
   }
 }
