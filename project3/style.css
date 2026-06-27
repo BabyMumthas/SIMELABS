@@ -1,24 +1,39 @@
 .landing-page {
   background-image: url("images/background.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   width: 100%;
   color: white;
+  height: 1152px;
+  a.nav-link {
+    color: white;
+  }
+  a.nav-link.active {
+    color: white;
+  }
+  .logo img {
+    width: 91px;
+  }
 }
-.landing-page .container {
-  height: 1070px;
-}
+
 .landing-page .items {
   color: white;
   font-family: Poppins;
+  align-items: baseline;
 }
 .landing-page i {
   color: rgb(255, 255, 255);
-  font-size: 24px;
+  font-size: 23px;
+}
+
+.landing-page .navbar {
+  margin-left: 64px;
+  margin-right: 5%;
 }
 .search-box {
-  width: 500px;
-  height: 70px;
+  width: 481px;
+  height: 58px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50px;
   display: flex;
@@ -35,8 +50,8 @@
   padding-left: 20px;
 }
 .search-box button {
-  width: 55px;
-  height: 55px;
+  width: 43px;
+  height: 44px;
   border: none;
   border-radius: 50%;
   background: #e58411;
@@ -49,12 +64,977 @@
   align-items: center;
 }
 .hero-section h1 {
-  font-family: Gliroy-Bold;
+  font-family: Poppins;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 70px;
 }
-.hero-section hp {
-  font-family: Gliroy-Bold;
+.hero-section p {
+  font-family: Poppins;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
+}
+.features h3 {
+  width: 278px;
+  height: 104px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 42px;
+  margin-top: 83px;
+}
+.features {
+  margin-top: 150px;
+  font-family: Poppins;
+  div .card-body {
+    width: 18rem;
+  }
+}
+.features {
+  color: rgba(30, 30, 30, 1);
+  margin-left: 100px;
+}
+.more-info {
+  color: rgba(229, 132, 17, 1);
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+.features p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.best-product h3 {
+  width: 242px;
+  height: 104px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 42px;
+}
+.features {
+  div .card-body {
+    width: 18rem;
+  }
+}
+.best-seller .nav-item {
+  margin-top: 60px;
+  font-size: 18px;
+  font-family: Poppins;
+  background-color: rgba(238, 238, 238, 1);
+  justify-self: center;
+  border-radius: 25px;
+  gap: 60px;
+  width: 22%;
+}
+.best-seller .nav-item p:hover {
+  background-color: white;
+  width: 90%;
+  text-align: center;
+  height: 100%;
+  border-radius: 25px;
+}
+.best-seller .card-text {
+  font-family: "Outfit", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(141, 141, 141, 1);
+}
+.best-seller .card-head {
+  font-family: "Outfit", sans-serif;
+  color: rgba(13, 27, 57, 1);
+  font-size: 22px;
+  font-weight: 600;
+}
+.best-seller {
+  background-color: rgba(247, 247, 247, 1);
+}
+.best-seller h2 {
+  margin-top: 20px;
+}
+.best-seller .card-img-top {
+  background-color: rgba(250, 250, 250, 1);
+}
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 25px;
+  width: 35px;
+  height: 40px;
+}
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 25px;
+  width: 35px;
+  height: 40px;
+}
+.experience .img img {
+  width: 736px;
+
+  margin-top: 276px;
+  border-radius: 0px 20px 20px 0px;
+  z-index: 2;
+  position: relative;
+}
+.best-seller {
+  .carousel-item1 .card {
+    width: 18rem;
+  }
+  .carousel-item2 .card {
+    width: 18rem;
+  }
+  .carousel-item3 .card {
+    width: 18rem;
+  }
+  .carousel-item4 .card {
+    width: 18rem;
+  }
+}
+
+.best-seller div .para {
+  display: flex;
+  justify-content: center;
+  gap: 207px;
+
+  flex-direction: row;
+}
+.experience .col-6::before {
+  content: "";
+  position: absolute;
+  width: 698px;
+  height: 348px;
+  background: url("images/sofa (1).png") no-repeat;
+  left: 2px;
+  bottom: 277px;
+}
+
+.experience .col-6 {
+  position: relative;
+}
+.experience .col-6::after {
+  content: "";
+  position: absolute;
+  width: 410px;
+  height: 402px;
+  background: url("images/sofa (2).png") no-repeat;
+  top: 359px;
+  right: 120px;
+}
+
+.experience h6 {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(229, 132, 17, 1);
+}
+.experience h2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 42px;
+}
+.experience .exp {
+  margin-top: 306px;
+}
+
+.meterial {
+  margin-top: 250px;
+  margin-left: 80px;
+}
+.meterial .col-4 {
+  margin-top: 145px;
+}
+
+.meterial h6 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(229, 132, 17, 1);
+}
+.meterial h2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 42px;
+}
+.meterial .col-6 {
+  margin-top: 125px;
+}
+.meterial .col-2 img {
+  box-shadow: 5px 31px 25px -7px rgba(0, 0, 0, 0.2);
+}
+
+h5 {
+  margin-top: 43px;
+}
+
+.footer .clr {
+  color: #e58411;
+}
+.footer {
+  font-family: Poppins;
+}
+.footer {
+  width: 100%;
+  height: 560px;
+  background-color: rgba(247, 247, 247, 1);
+  display: flex;
+  align-items: center;
+}
+.footer .terms {
+  margin-right: 130px;
+}
+
+.testimols .col-4 {
+  height: 480px;
+}
+.testimols div .col1.col-4 {
+  background-image: url("images/unsplash__HqHX3LBN18.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.testimols .bg {
+  text-align: center;
+  border-radius: 60px;
+  width: 87px;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  top: 121px;
+
+  right: 170px;
+  height: 86px;
+  align-content: center;
+}
+.testimols div .col2.col-4 {
+  background-image: url("images/unsplash_h2_3dL9yLpU.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.testimols div .col3.col-4 {
+  background-image: url("images/unsplash_JaXs8Tk5Iww.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.testimols .col-4 {
+  position: relative;
+}
+
+.testimols .car-items {
+  position: relative;
+}
+.car-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 225px;
+  left: 30px;
+  background-color: white;
+  width: 86%;
+  border-radius: 19px;
+}
+.cart1.car-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 221px;
+  left: 30px;
+  background-color: white;
+  width: 86%;
+  border-radius: 19px;
+}
+.testimols {
+  margin-top: 200px;
+  .container {
+    margin-bottom: 100px;
+  }
+}
+.testimols h6 {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(229, 132, 17, 1);
+}
+.testimols h2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.testimols .bg {
+  text-align: center;
+  border-radius: 60px;
+  width: 97px;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  top: 175px;
+  right: 170px;
+  height: 86px;
+  align-content: center;
+}
+.bang {
+  width: 69px;
+}
+.mpok {
+  width: 100px;
+}
+
+@media (max-width: 600.98px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-section h1 {
+    width: 84%;
+  }
+  .landing-page {
+    background-size: cover;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+  }
+  .meterial .col-4 {
+    width: 100%;
+    width: 49%;
+  }
+  .meterial .col-2 {
+    width: 100%;
+    width: 49%;
+  }
+  .meterial .col-6 {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .testimols {
+    .col-4 {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+  .testimols div .car-items {
+    top: 442px;
+    left: 36px;
+    width: 85%;
+  }
+
+  .testimols div .bg {
+    width: 14%;
+    height: 12%;
+    top: 392px;
+    right: 274px;
+  }
+}
+
+@media (max-width: 768.98px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-section h1 {
+    width: 60%;
+  }
+  .landing-page {
+    background-size: cover;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+  }
+  .footer {
+    width: 100%;
+  }
+  .meterial .col-4 {
+    width: 100%;
+    width: 49%;
+  }
+  .meterial .col-2 {
+    width: 35%;
+    img {
+      width: 65%;
+    }
+  }
+  .meterial .col-6 {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .experience {
+    margin-left: 80px;
+    .row {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: anchor-center;
+    }
+    .exp {
+      margin-top: 6px;
+    }
+    div.col-6 {
+      width: 84%;
+      margin-top: -212px;
+    }
+    .col-6::before {
+      width: 0px;
+      height: 0px;
+      left: 2px;
+      bottom: 277px;
+      display: none;
+    }
+    .col-6::after {
+      display: none;
+    }
+  }
+
+  .experience div.col-4 {
+    width: 95%;
+  }
+  .meterial {
+    margin-top: 104px;
+  }
+
+  .best-seller {
+    .nav-item {
+      display: flex;
+    }
+    .carousal-inner {
+      flex-direction: column;
+    }
+    .product-items {
+      flex-direction: column;
+    }
+    .para {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .features {
+    .col-3 {
+      height: 154px;
+      width: 100%;
+    }
+  }
+  .testimols .col-4 .bg {
+    top: 142px;
+    right: 60px;
+  }
+  .experience .col-6 .img img {
+    margin-top: 221px;
+  }
+  .testimols .col-4 .car-items {
+    top: 188px;
+    left: -3px;
+    width: 105%;
+  }
+  .meterial div .col-2 img {
+    width: 82%;
+  }
+  .features div {
+    margin-top: -11px;
+  }
+  .features {
+    height: 460px;
+  }
+  .features div .col-3 {
+    width: 50%;
+    height: 50%;
+  }
+  .features .card .card-body {
+    width: 20rem;
+  }
+  .features .col-3 h3 {
+    margin-top: 63px;
+  }
+  .best-seller div .nav-item {
+    width: 53%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-section h1 {
+    width: 60%;
+  }
+  .landing-page {
+    background-size: cover;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+  .footer {
+    width: 100%;
+  }
+  .testimols {
+    width: 100%;
+  }
+  .testimols .card-img {
+    width: 100%;
+  }
+  .testimols .car-items {
+    top: 111px;
+    left: 18px;
+    width: 88%;
+  }
+  .testimols .container {
+    max-width: 100%;
+  }
+  .testimols h5 {
+    margin-top: 37px;
+  }
+  .testimols p2 {
+    margin-top: 5px;
+  }
+  .testimols .bg {
+    width: 27%;
+    height: 23%;
+    top: 69px;
+    right: 115px;
+  }
+  .meterial .col-4 {
+    margin-top: 85px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .meterial .col-2 {
+    margin-top: 49px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .meterial .col-6 {
+    margin-top: 0px;
+  }
+  .experience {
+    margin-left: 80px;
+    .col-7 {
+      width: 41%;
+
+      img {
+        width: 100%;
+      }
+    }
+    .col-4 {
+      width: 45%;
+    }
+    .exp {
+      margin-top: 216px;
+    }
+    .col-7::before {
+      display: none;
+    }
+    .col-7::after {
+      display: none;
+    }
+  }
+
+  .best-seller {
+    .nav-item {
+      width: 47%;
+    }
+
+    .carousel-item1 .card {
+      width: 152px;
+    }
+    .carousel-item2 .card {
+      width: 152px;
+    }
+    .carousel-item3 .card {
+      width: 152px;
+    }
+    .carousel-item4 .card {
+      width: 152px;
+    }
+    .price img {
+      width: 30px;
+    }
+    .para {
+      gap: 53px;
+    }
+  }
+  .features {
+    div .card-body {
+      width: 100%;
+    }
+  }
+
+  .testimols .bg {
+    width: 27%;
+    height: 23%;
+    top: 51px;
+    right: 115px;
+  }
+}
+@media (max-width: 425px) {
+  .landing-page .hero-section h1 {
+    font-size: 40px;
+  }
+  .landing-page form {
+    width: 10%;
+  }
+  .testimols {
+    .col-4 {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+  .features div .col-3 {
+    width: 100%;
+    height: 50%;
+  }
+  .features {
+    margin-top: 88px;
+    font-family: Poppins;
+    height: 100%;
+  }
+
+  .testimols .container {
+    max-width: 100%;
+    height: 100%;
+  }
+  .testimols .col-4 .car-items {
+    top: 214px;
+    left: 13px;
+    width: 94%;
+  }
+  .testimols .col-4 .bg {
+    top: 162px;
+    right: 148px;
+  }
+  .meterial .col-4 {
+    width: 100%;
+    width: 54%;
+  }
+  .experience .img img {
+    width: 736px;
+    margin-top: 160px;
+    width: 97%;
+  }
+  .meterial .col-2 {
+    width: 46%;
+  }
+  .best-seller .carousal-inner {
+    flex-direction: column;
+  }
+  .testimols div .row {
+    flex-direction: column;
+  }
+  .testimols div .col-4 {
+    width: 100%;
+  }
+  .best-seller div .nav-item {
+    width: 94%;
+  }
+  .testimols div .car-items {
+    top: 276px;
+    left: 36px;
+    width: 85%;
+  }
+  .testimols div .bg {
+    width: 18%;
+    height: 16%;
+    top: 231px;
+    right: 187px;
+  }
+  .hero-section p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .features .col-3 .card-body {
+    width: 16rem;
+  }
+  .footer .col-4 {
+    width: 100%;
+    padding-top: 0px !important;
+  }
+  .footer .terms {
+    gap: 74px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .testimols .car-items {
+    top: 94px;
+    left: 23px;
+
+    width: 85%;
+  }
+  .bg {
+    width: 25%;
+    height: 22%;
+
+    top: 61px;
+    right: 126px;
+  }
+}
+@media (max-width: 1024px) {
+  .experience .img img {
+    width: 542px;
+  }
+  .best-seller .nav-item {
+    width: 32%;
+  }
+  .meterial .col-2 img {
+    width: 100%;
+  }
+  .meterial .col-4 img {
+    width: 100%;
+  }
+  .testimols .row {
+    justify-content: space-between;
+  }
+  .testimols .col-4 {
+    width: 30%;
+  }
+  .testimols div .car-items {
+    top: 176px;
+    left: 0px;
+    width: 100%;
+  }
+  .testimols div .bg {
+    text-align: center;
+    border-radius: 60px;
+    width: 97px;
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    top: 126px;
+    right: 88px;
+    height: 88px;
+    align-content: center;
+  }
+  .features .col-3 {
+    width: 20%;
+  }
+  .features h3 {
+    font-size: 25px;
+  }
+  .features {
+    div .card-body {
+      width: 11rem;
+    }
+  }
+  .landing-page div .container {
+    align-items: baseline;
+  }
+  .landing-page .navbar {
+    margin-left: 16px;
+    margin-right: 1%;
+  }
+  .features {
+    margin-top: 88px;
+    font-family: Poppins;
+  }
+  .features h3 {
+    margin-top: 143px;
+  }
+  .experience .img img {
+    width: 467px;
+  }
+  .best-seller div .para {
+    display: flex;
+    justify-content: center;
+    gap: 207px;
+    flex-direction: column;
+  }
+  .best-seller .nav-item {
+    width: 38%;
+  }
+  .meterial {
+    margin-top: 76px;
+    margin-left: 38px;
+  }
+  .experience .img img {
+    width: 736px;
+    margin-top: 160px;
+    width: 80%;
+  }
+  .experience .exp {
+    margin-top: 74px;
+  }
+  .experience .col-6::before {
+    content: "";
+    position: absolute;
+    width: 302px;
+    height: 270px;
+    left: 2px;
+    bottom: 277px;
+  }
+  .experience .col-6::after {
+    content: "";
+    position: absolute;
+    width: 440px;
+    height: 202px;
+    top: 174px;
+    right: 120px;
+  }
+  .testimols {
+    margin-top: 76px;
+  }
+}
+@media (max-width: 1440px) {
+  .experience .img img {
+    width: 542px;
+  }
+  .best-seller .nav-item {
+    width: 32%;
+  }
+  .meterial .col-2 img {
+    width: 100%;
+  }
+  .meterial .col-4 img {
+    width: 100%;
+  }
+  .testimols .row {
+    justify-content: space-between;
+  }
+  .testimols .col-4 {
+    width: 30%;
+  }
+  .testimols .car-items {
+    top: 194px;
+    left: 12px;
+    width: 92%;
+  }
+  .testimols .bg {
+    text-align: center;
+    border-radius: 60px;
+    width: 97px;
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    top: 153px;
+    right: 146px;
+    height: 88px;
+    align-content: center;
+  }
+  .features .col-3 {
+    width: 20%;
+  }
+  .features h3 {
+    font-size: 25px;
+  }
+  .features {
+    div .card-body {
+      width: 11rem;
+    }
+  }
+  .landing-page div .container {
+    align-items: baseline;
+  }
+  .landing-page .navbar {
+    margin-left: 16px;
+    margin-right: 1%;
+  }
+  .features {
+    margin-top: 88px;
+    font-family: Poppins;
+  }
+  .features h3 {
+    margin-top: 143px;
+  }
+  .experience .img img {
+    width: 467px;
+  }
+  .best-seller div .para {
+    display: flex;
+    justify-content: center;
+    gap: 207px;
+    flex-direction: column;
+  }
+  .best-seller .nav-item {
+    width: 38%;
+  }
+  .meterial {
+    margin-top: 76px;
+    margin-left: 38px;
+  }
+  .experience .img img {
+    width: 736px;
+    margin-top: 160px;
+    width: 80%;
+  }
+  .experience .exp {
+    margin-top: 74px;
+  }
+  .experience .col-6::before {
+    content: "";
+    position: absolute;
+    width: 302px;
+    height: 270px;
+    left: 2px;
+    bottom: 277px;
+  }
+  .experience .col-6::after {
+    content: "";
+    position: absolute;
+    width: 440px;
+    height: 202px;
+    top: 174px;
+    right: 120px;
+  }
+  .testimols {
+    margin-top: 76px;
+  }
+}
+
+@media (max-width: 375) {
+  div .features {
+    margin-left: 30px;
+  }
+  div .landing-page {
+    width: 118%;
+  }
+  div .best-seller {
+    width: 118%;
+  }
+ div .footer{
+    width: 118%;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer .terms {
+    gap: 32px;
+  }
+  .testimols .col-4 .bg {
+    top: 138px;
+    right: 102px;
+  }
+  .testimols .col-4 .car-items {
+    top: 187px;
+    left: 13px;
+    width: 94%;
+  }
+
+  .best-seller .card-img-top {
+    width: 63%;
+  }
+  .best-seller div .para {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+  }
+  .best-seller div .nav-item {
+    width: 94%;
+    gap: 20px;
+  }
+  .landing-page {
+    background-size: cover;
+    width: 118%;
+  }
+  .best-seller {
+    width: 118%;
+  }
+  .testimols {
+    margin-top: 67px;
+    margin-left: 25px;
+  }
+  .footer {
+    height: 100%;
+    width: 118%;
+  }
 }
